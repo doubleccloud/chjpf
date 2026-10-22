@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profile</title>
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/root.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <div class="bg-layer" id="bgLayer"></div>
+
+  <div id="wrap">
+    <header id="header" class="header">
+      <div class="h-title">
+        <span class="dot"></span>
+        <span>whoami — Web Designer & Publisher</span>
+      </div>
+
+      <h1 class="main-title">
+
+        <span class="word"><span>아이디어를</span></span>
+        <span class="word icon-word"><span class="peek">👀</span></span>
+
+        <span class="word"><span>DESIGN</span></span>
+        <span class="word"><span><em>하고</em></span></span>
+        <span class="word icon-word"><span class="thunder">⚡</span></span>
+        <br>
+        <span class="word icon-word"><span class="magic">🌟</span></span>
+        <span class="word"><span>웹 사이트로</span></span>
+        <!-- <span class="word"><span>만들고</span></span> -->
+        <span class="word"><span>BUILD</span></span>
+        <span class="word"><span><em>합니다.</em></span></span>
+      </h1>
+
+      <p class="header-sub" id="headerSub">I turn ideas into thoughtful designs and build them into experiences.<span
+          class="header-cursor"></span>
+      </p>
+
+      <div class="scroll-cue">
+        <div class="bar"></div><span>scroll</span>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#header" class="nav-logo">zini
+        <span>.</span>dev</a>
+
+      <div class="nav">
+        <a href="#about"><span></span>About</a>
+        <a href="#works"><span></span>Works</a>
+        <a href="#graphic"><span></span>Graphic</a>
+        <a href="#video"><span></span>Video</a>
+        <a href="#skills"><span></span>Skills</a>
+        <a href="#contact"><span></span>Contact</a>
+      </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="section-num mono">01</span>
+        <h2 class="section-title">About <span>me</span></h2>
+      </div>
+
+      <div class="section-rule" data-rule></div>
+      <br><br>
+
+      <div class="about">
+        <div class="about-photo-wrap">
+          <div class="about-photo">
+            <img src="./images/pro.png" alt="프로필이미지">
+          </div>
+        </div>
+        <div class="lines">
+          <div class="about-line">
+            <!-- <span class="ln mono">01</span> -->
+            <strong>퍼블리셔 최혜진</strong>
+          </div>
+          <div class="about-line sub">
+            <!-- <span class="ln mono">02</span> -->
+            <p>머릿속의 아이디어를 디자인하고, 웹이라는 화면에 구현합니다.</p>
+          </div>
+          <div class="about-line sub">
+            <!-- <span class="ln mono">03</span> -->
+            <p>좋아하는 일을 직접 배우고 만들어보며 더 나은 결과를 고민합니다.</p>
+          </div>
+          <div class="about-line sub">
+            <!-- <span class="ln">04</span> -->
+            <p>사용자의 입장에서 생각하며, 보기 좋은 화면을 넘어 편리한 경험을 만듭니다.</p>
+          </div>
+        </div><!--lines-->
+      </div><!--about-->
+    </section>
+  </div><!--about-->
+  </section>
+
+  <!-- WORKS -->
+  <section id="works" class="works section">
+    <div class="section-head">
+      <span class="section-num mono">02</span>
+      <h2 class="section-title">Web <span>works</span></h2>
+    </div>
+    <div class="section-rule" data-rule></div>
+    <br><br>
+    <div class="works-grid">
+
+      <div class="work-card">
+        <div class="work-media">
+          <a href="https://gozzi.dothome.co.kr/loop/" target="_blank"><img src="./images/port3.png" alt="포폴이미지3"></a>
+        </div>
+        <div class="work-content">
+          <div class="work-path mono">/works/01/First team project</div>
+          <h3 class="work-name"><a href="https://gozzi.dothome.co.kr/loop/" target="_blank">loop</a></h3>
+          <p class="work-desc">음악 스트리밍 사이트입니다. 팀원들과 함께 다양한 인터랙션을 활용해 사용자의 눈길을 끄는 웹사이트를 설계하고 제작했습니다. </p>
+          <div class="work-link">
+            <span><a href="https://gozzi.dothome.co.kr/loop/" target="_blank">Website</a></span><span><a
+                href="https://gozzi.dothome.co.kr/loop/loop_ppt.pdf" target="_blank">PLAN</a></span>
+          </div>
+          <div class="work-tags">
+            <span>HTML/CSS</span><span>javascript</span><span>jQuery</span><span>GSAP</span><span>Swiper</span>
+          </div>
+          <div class="work-arrow" data-gif="./images/loop.gif" data-title="loop"
+            data-desc="음악 스트리밍 사이트입니다. 팀원들과 함께 다양한 인터랙션을 활용해 사용자의 눈길을 끄는 웹사이트를 설계하고 제작했습니다. 팀 프로젝트로 진행하며 기획 , 디자인 , 퍼블리싱 전 과정에 참여했습니다."
+            data-features="- GSAP ScrollTrigger를 활용한 스크롤 기반 인터랙션 | - JavaScript를 활용한 다양한 동적 기능 구현 | - 반응형 웹"
+            data-link="https://gozzi.dothome.co.kr/loop/">↗</div>
+        </div>
+      </div>
+
+      <div class="work-modal" id="workModal">
+        <div class="work-modal-overlay"></div>
+        <div class="work-modal-box">
+          <button class="work-modal-close" id="workModalClose">✕</button>
+          <div class="work-modal-gif">
+            <img id="modalGif" src="" alt="사이트 미리보기">
+          </div>
+          <div class="work-modal-body">
+            <h3 id="modalTitle"></h3>
+            <p class="work-modal-desc" id="modalDesc"></p>
+            <ul class="work-modal-features" id="modalFeatures"></ul>
+            <a href="#" id="modalLink" target="_blank" class="work-modal-btn">사이트 바로가기</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-media">
+          <a href="https://gozzi.dothome.co.kr/myfanlog/" target="_blank"><img src="./images/port2.png"
+              alt="포폴이미지2"></a>
+        </div>
+        <div class="work-content">
+          <div class="work-path mono">/works/03/Second personal project</div>
+          <h3 class="work-name"><a href="https://gozzi.dothome.co.kr/myfanlog/" target="_blank">MY FANLOG</a></h3>
+          <p class="work-desc">K-pop 팬을 위한 정보 허브 사이트입니다. 여러 곳을 검색하지 않아도 공연과 이벤트 정보를 한눈에 확인하고, <br>팬 활동까지 편리하게 이어갈 수 있도록
+            콘텐츠를 구성하고 사용자 중심의 UI로 설계했습니다.</p>
+          <div class="work-link">
+            <span><a href="https://gozzi.dothome.co.kr/myfanlog/" target="_blank">Website</a></span><span>PLAN</span>
+          </div>
+          <div class="work-tags">
+            <span>HTML/CSS</span><span>javascript</span><span>jQuery</span><span>GSAP</span><span>Swiper</span>
+          </div>
+          <div class="work-arrow" data-gif="./images/myfan.gif" data-title="MY FANLOG"
+            data-desc="K-pop 팬을 위한 정보 허브 사이트입니다. 여러 곳을 검색하지 않아도 공연과 이벤트 정보를 한눈에 확인하고, 팬 활동까지 편리하게 이어갈 수 있도록 콘텐츠를 구성하고 사용자 중심의 UI로 설계했습니다. 이미지와 태그를 원본 출처와 직접 연결해 정보의 신뢰도를 높였습니다."
+            data-features="- jQuery + Swiper.js 기반 탭형 콘텐츠 구성|- localStorage를 활용한 찜(즐겨찾기) 기능 구현|- 사용자가 직접 일정 추가 가능한 캘린더 기능|- 한국어/영어 페이지 분리 대응 다국어 구조|- GSAP 스크롤 인터랙션 및 반응형 레이아웃"
+            data-link="https://gozzi.dothome.co.kr/myfanlog/">↗</div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-media">
+          <a href="https://gozzi.dothome.co.kr/sf/" target="_blank">
+            <img src="./images/port1.png" alt="포폴이미지1">
+          </a>
+        </div>
+        <div class="work-content">
+          <div class="work-path mono">/works/02/Second Team Project</div>
+          <h3 class="work-name"><a href="https://gozzi.dothome.co.kr/sf/" target="_blank">Stick Friends</a>
+          </h3>
+          <p class="work-desc">아이스크림 판매 사이트입니다. 유아부터 청소년을 주요 타깃으로 설정하고 친근하고 재미있는 브랜드 경험을 중심으로 디자인했습니다. <br>AI로 제작한 대표
+            캐릭터를 활용해 브랜드 상품을 구성하고, 눈길을 끄는 인터랙션과 상품 구매 기능까지 구현했습니다.</p>
+          <div class="work-link">
+            <span><a href="https://gozzi.dothome.co.kr/sf/" target="_blank">Website</a></span>
+            <span>
+              <a href="https://gozzi.dothome.co.kr/sf/ppt.pdf" target="_blank">PLAN</a></span>
+          </div>
+          <div class="work-tags">
+            <span>HTML/CSS</span><span>javascript</span><span>jQuery</span><span>GSAP</span><span>Swiper</span>
+          </div>
+          <div class="work-arrow" data-gif="./images/sf.gif" data-title="Stick Friends"
+            data-desc="아이스크림 판매 사이트입니다. 유아부터 청소년을 주요 타깃으로 설정하고 친근하고 재미있는 브랜드 경험을 중심으로 디자인했습니다. AI로 제작한 대표 캐릭터를 활용해 브랜드 상품을 구성하고, 눈길을 끄는 인터랙션과 상품 구매 기능까지 구현했습니다."
+            data-features="- AI로 제작한 브랜드 캐릭터를 활용한 상품 디자인|- Swiper.js 기반 상품/이벤트 카드 캐러셀|- GSAP 스크롤 인터랙션 및 브랜드 스토리 연출|- 반응형 레이아웃"
+            data-link="https://ooruma.dothome.co.kr/STICK_FRIENDS/">↗</div>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </section><!--works-->
+
+  <!-- GRAPHIC WORKS : replace placeholder artwork with your own images -->
+  <section id="graphic" class="section portfolio-extra graphic-extra">
+    <div class="section-head">
+      <span class="section-num mono">03</span>
+      <h2 class="section-title">Graphic <span>works</span></h2>
+    </div>
+    <div class="section-rule" data-rule></div>
+    <div class="extra-intro">
+      <div><span class="extra-path mono">/works/graphic.psd</span>
+        <p>이미지 한 장에도 콘셉트와 이야기를 담습니다.<br>Photoshop을 활용한 그래픽 디자인 작업을 소개합니다.</p></div>
+      <span class="extra-index mono">PHOTOSHOP / VISUAL DESIGN</span>
+    </div>
+    <div class="graphic-filters" role="group" aria-label="그래픽 작업 분류">
+      <!-- <button type="button" class="graphic-filter active" data-filter="all" aria-pressed="true">All <span>04</span></button> -->
+      <button type="button" class="graphic-filter" data-filter="poster" aria-pressed="false">Poster</button>
+      <!-- <button type="button" class="graphic-filter" data-filter="banner" aria-pressed="false">Banner</button>
+      <button type="button" class="graphic-filter" data-filter="editing" aria-pressed="false">Photo Editing</button> -->
+    </div>
+    <div class="graphic-gallery">
+
+      <button type="button" class="graphic-item" data-category="poster" data-title="Poster Design 01" data-detail="포토샵과 일러스트의 3D 효과를 이용하여 만든 포스터 입니다." data-image="./images/graphic01.jpg">
+        <div class="graphic-visual visual-01"><img src="./images/photoshop-1.png" alt="poster1"></div>
+        <div class="graphic-meta"><div><strong>Poster Design 01</strong><small>Poster · Photoshop · illustrator</small></div><span aria-hidden="true">↗</span></div>
+      </button>
+
+      <button type="button" class="graphic-item" data-category="poster" data-title="Poster Design 02" data-detail="직접 그린 그림을 활용하여 포토샵 작업한 이벤트 안내 포스터입니다." data-image="./images/graphic01.jpg">
+        <div class="graphic-visual visual-02"><img src="./images/photoshop-2.png" alt="poster2"></div>
+        <div class="graphic-meta"><div><strong>Poster Design 02</strong><small>Poster · Photoshop</small></div><span aria-hidden="true">↗</span></div>
+      </button>
+
+       <button type="button" class="graphic-item" data-category="poster" data-title="Poster Design 03" data-detail="인디자인으로 달력 작업을 하고 포토샵으로 디자인한 연력 포스터입니다." data-image="./images/graphic01.jpg">
+        <div class="graphic-visual visual-03"><img src="./images/year.jpg" alt="poster3"></div>
+        <div class="graphic-meta"><div><strong>Poster Design 03</strong><small>Poster · Photoshop · indesign</small></div><span aria-hidden="true">↗</span></div>
+      </button>
+
+      <button type="button" class="graphic-item" data-category="poster" data-title="Poster Design 04" data-detail="고객의 니즈에 맞게 포토샵으로 디자인한 이벤트 포스터 입니다." data-image="./images/graphic01.jpg">
+        <div class="graphic-visual visual-04"><img src="./images/poster-4.jpg" alt="poster4"></div>
+        <div class="graphic-meta"><div><strong>Poster Design 04</strong><small>Poster · Photoshop</small></div><span aria-hidden="true">↗</span></div>
+      </button>
+
+      <!-- <button type="button" class="graphic-item" data-category="poster" data-title="Graphic Design 04" data-detail="그래픽 디자인 작업물을 여기에 소개해 주세요." data-image="./images/graphic04.jpg">
+        <div class="graphic-visual visual-04"><span class="visual-label">YOUR<br>WORK<br>04</span><span class="visual-corner">PS / 04</span></div>
+        <div class="graphic-meta"><div><strong>Graphic Design 04</strong><small>Poster · Photoshop</small></div><span aria-hidden="true">↗</span></div>
+      </button> -->
+    </div>
+  </section>
+
+  <!-- VIDEO WORKS -->
+  <section id="video" class="section portfolio-extra video-extra">
+    <div class="section-head">
+      <span class="section-num mono">04</span>
+      <h2 class="section-title">Video <span>works</span></h2>
+    </div>
+    <div class="section-rule" data-rule></div>
+    <div class="extra-intro">
+      <div><span class="extra-path mono">/works/video.prproj</span>
+        <p>컷과 리듬, 색감으로 이야기를 완성합니다.<br>직접 편집한 영상 작업을 소개합니다.</p></div>
+      <span class="extra-index mono">PREMIERE PRO / AFTER EFFECTS</span>
+    </div>
+    <div class="video-grid">
+      <article class="video-card">
+        <div class="video-player">
+          <iframe src="https://www.youtube-nocookie.com/embed/RLoyyDH6dmU" title="Video Project 01" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-info">
+          <span class="extra-path mono">/video/01/</span>
+          <h3>Video Project 01</h3>
+          <p>Premiere Pro · Video Editing</p>
+        </div>
+      </article>
+      <article class="video-card">
+        <div class="video-player">
+        <iframe src="https://www.youtube-nocookie.com/embed/5eQtJ7gW1nw" title="Video Project 02" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-info">
+          <span class="extra-path mono">/video/02/</span>
+          <h3>Video Project 02</h3>
+          <p>Premiere Pro · Video Editing</p>
+        </div>
+      </article>
+      <article class="video-card">
+        <div class="video-player">
+          <!-- 아래 iframe의 src를 실제 유튜브 embed URL로 변경하세요. 예: https://www.youtube-nocookie.com/embed/ABC123 -->
+        <iframe src="about:blank" title="Video Project 03" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-card-info">
+          <span class="extra-path mono">/video/03/</span>
+          <h3>Video Project 03</h3>
+          <p>After Effects · Motion Graphics</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <div class="graphic-lightbox" id="graphicLightbox" role="dialog" aria-modal="true" aria-label="그래픽 작업 상세보기" hidden>
+    <div class="graphic-lightbox-panel">
+      <button type="button" class="graphic-lightbox-close" aria-label="닫기">✕</button>
+      <div class="graphic-lightbox-art"></div>
+      <div class="graphic-lightbox-copy"><span class="extra-path mono">/works/graphic.psd</span><h3 id="graphicLightboxTitle"></h3><p id="graphicLightboxDetail"></p></div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills section">
+    <div class="section-head">
+      <span class="section-num mono">05</span>
+      <h2 class="section-title">What <span>I can do</span></h2>
+    </div>
+    <div class="section-rule" data-rule></div>
+    <br><br>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-path mono">/skills/01/design.psd</div>
+        <div class="skill-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <h3 class="skill-name">Design</h3>
+        <span class="skill-sub mono">Photoshop · Figma</span>
+        <p class="skill-desc">사용자와 브랜드를 고려한 UI/UX를 설계하고,
+          목적에 맞는 웹 디자인을 시각적으로 구현합니다.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-path mono">/skills/03/script.js</div>
+        <div class="skill-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <h3 class="skill-name">Publisher</h3>
+        <span class="skill-sub mono">Html/css · javascript · jQuery · React</span>
+        <p class="skill-desc">디자인을 웹으로 구현하고, <br>반응형 레이아웃과
+          다양한 인터랙션을 통해 사용자 경험을 완성합니다.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-path mono">/skills/02/premiere.prproj</div>
+        <div class="skill-icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polygon points="23 7 16 12 23 17 23 7"></polygon>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+          </svg>
+        </div>
+        <h3 class="skill-name">Video Editing</h3>
+        <span class="skill-sub mono">Premiere Pro</span>
+        <div class="work-link">
+            <span><a href="https://youtu.be/RLoyyDH6dmU" target="_blank">Video</a></span>
+          </div>
+        <p class="skill-desc">브랜드와 콘텐츠의 목적에 맞춰 컷 편집, 자막,
+          화면 구성 및 색보정 등 영상 편집을 진행합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="section-head">
+      <span class="section-num mono">06</span>
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="section-rule" data-rule></div>
+    <br><br>
+    <h3 class="contact-title">함께 만들고 싶은 프로젝트가 있다면 연락주세요.</h3>
+    <div class="contact-info">
+      <a href="#" class="contact-info-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>010-7497-4265</span>
+      </a>
+      <a href="#" class="contact-info-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>chj6962@gmail.com</span>
+      </a>
+    </div>
+
+  </section>
+
+  <footer>
+    <span>© 2026 CHOI HYEJIN. All rights reserved.</span>
+    <span>Built with Html Css GSAP ScrollTrigger</span>
+  </footer>
+  </div> <!--#wrap-->
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="./script.js"></script>
+
+<script>
+/* Graphic filtering and accessible detail modal */
+(() => {
+  const filters = document.querySelectorAll('.graphic-filter');
+  const items = document.querySelectorAll('.graphic-item');
+  const modal = document.getElementById('graphicLightbox');
+  const art = modal.querySelector('.graphic-lightbox-art');
+  const close = modal.querySelector('.graphic-lightbox-close');
+  let lastFocus = null;
+  filters.forEach(btn => btn.addEventListener('click', () => {
+    filters.forEach(b => { b.classList.toggle('active',b===btn); b.setAttribute('aria-pressed',String(b===btn)); });
+    items.forEach(item => { item.hidden = btn.dataset.filter !== 'all' && item.dataset.category !== btn.dataset.filter; });
+  }));
+  items.forEach(item => item.addEventListener('click', () => {
+    lastFocus = item;
+    art.replaceChildren();
+    const visual = item.querySelector('.graphic-visual').cloneNode(true);
+    art.appendChild(visual);
+    // Show the real artwork in the modal when its image file exists.
+    const image = new Image();
+    image.onload = () => { art.replaceChildren(image); image.alt = item.dataset.title; };
+    image.src = item.dataset.image;
+    document.getElementById('graphicLightboxTitle').textContent = item.dataset.title;
+    document.getElementById('graphicLightboxDetail').textContent = item.dataset.detail;
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    close.focus();
+  }));
+  function dismiss() { modal.hidden = true; document.body.style.overflow = ''; lastFocus?.focus(); }
+  close.addEventListener('click',dismiss);
+  modal.addEventListener('click',e => { if(e.target===modal) dismiss(); });
+  document.addEventListener('keydown',e => { if(e.key==='Escape' && !modal.hidden) dismiss(); });
+})();
+</script>
+</body>
+
+</html>
